@@ -1,0 +1,132 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: rgb(251, 255, 249);
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav img{
+ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.main .greet{
+    font-size: 40px;
+    font-weight: 600;
+    margin:50px 0px;
+    padding: 20px;
+    color: #aaaaaa;    
+
+}
+.main .greet span{
+
+    background:-webkit-linear-gradient(16deg,rgb(0, 153, 84),rgb(143, 0, 168));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+ 
+}
+
+.main .cards{
+    display: grid;
+    grid-template-columns:repeat(4, auto);
+    padding: 10px 80px;
+    column-gap: 10px;
+    justify-content: space-between;
+    
+}
+
+.main_container{
+    width: 80%;
+    margin: auto;
+}
+
+.main .card{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8fbff;
+    cursor: pointer;
+    position: relative;
+    height:200px
+
+}
+
+.main .card img{
+    width: 35px;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+ .main .card p{
+    margin-top: 30px;
+    line-height: 1.4;
+    color: #585858; 
+    font-size: 18px;
+ }
+
+ .main .card:hover{
+   background-color: #dfe4ea;
+ }
+
+ .main-bottom{
+    max-width: 92%;
+    bottom: 0;
+    margin: auto;
+    padding: 0px 20px;
+ }
+
+ .searchbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: #f0f4f9;
+   
+ }
+
+ .searchbox img{
+    width: 24px;
+    cursor: pointer;
+
+ }
+ 
+ .searchbox input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+ }
+
+ .searchbox div{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+ }
+
+ .bottom-info{
+    font-size: 14px;
+    margin: 10px auto;
+    font-weight: 400;
+    text-align: center;
+    color: #787878;
+ }
